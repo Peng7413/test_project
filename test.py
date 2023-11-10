@@ -12,5 +12,6 @@ def main():
     CalculateBMI(170,65)
     CalculateAVG(5,17)
     CalculateStair(8)
+    print("測試")
 
 main()
