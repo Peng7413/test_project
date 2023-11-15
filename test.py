@@ -4,7 +4,7 @@ def CalculateBMI(height,kilogram):
     return 0
 def CalculateAVG(a,b):
     print('%d %d' %(a,b))
-    return 0
+    return (a+b)//2
 def CalculateStair(n):
     print('%d' %n)
     return 0
