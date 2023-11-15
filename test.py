@@ -4,10 +4,11 @@ def CalculateBMI(height,kilogram):
 def CalculateAVG(a,b):
     return (a+b)//2
 def CalculateStair(n):
-    if(n==1 or n==0):
-        return 1
-    elif(n>1):
-        return CalculateStair(n-1)+CalculateStair(n-2)
+    result = 1
+    for i in range(n):
+        result *= (i+1)
+    print('%d' %result)
+    return result
 
 def main():
     print(CalculateBMI(170,65))
