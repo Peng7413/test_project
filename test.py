@@ -1,7 +1,7 @@
 def CalculateBMI(height,kilogram):
-    #result = kilogram/((height/100)*(height/100))
-    #print('%d' %result)
-    return 0
+    result = kilogram/((height/100)*(height/100))
+    print('BMI:%d' %result)
+    return result
 def CalculateAVG(a,b):
     print('%d %d' %(a,b))
     return (a+b)//2
